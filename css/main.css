@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+/* Adjust margin sizes based on screen width */
+@media (min-width: 768px) {
+    .content {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+/* Make the page fill the screen */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to right bottom, #8e2de2, #3333ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+code {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#navbar, #footer {
+    background-color: #000;
+    opacity: 60%;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* Stick the footer to the bottom of the page */
+#footer {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.nav-item>a, .navbar-brand {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item>a:hover, .navbar-brand:hover {
+    opacity: 75%;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.content {
+    margin-top: 5%;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.navbar, .footer {
+    height: 75px;
+}
+
+.v-centre {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-left: 1em;
+    margin-top: auto;
+}
+
+.pull-left {
+    margin-right: auto;
+}
+
+.pull-right {
+    margin-left: auto;
+}
+
+.footer-social {
+    font-size: 25px;
+}
+
+.footer-social .nav-item {
+    margin-left: 0.75em;
+}
+
+.massive {
+    font-size: 150px;
+    margin-bottom: 0;
+}
+
+.medium {
+    font-size: 50px;
+}
+
+.page-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.page-content {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    flex-direction: column;
+}
